@@ -28,7 +28,9 @@
         android:id="@+id/etEmailLoginLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="100dp"
+        android:fontFamily="@font/reemkufiregular"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/etPasswordLoginLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +40,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmailLogin"
             android:layout_width="match_parent"
+            android:fontFamily="@font/reemkufiregular"
             android:layout_height="wrap_content"
             android:hint="Enter email"
             android:inputType="textEmailAddress" />
@@ -48,6 +51,7 @@
         android:id="@+id/etPasswordLoginLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/reemkufiregular"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,6 +60,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etPasswordLogin"
             android:layout_width="match_parent"
+            android:fontFamily="@font/reemkufiregular"
             android:layout_height="wrap_content"
             android:hint="Enter Password"
             android:inputType="textPassword" />
@@ -63,16 +68,32 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etRenterPassword"
         android:layout_width="match_parent"
+        android:fontFamily="@font/reemkufiregular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/etPasswordLoginLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/reemkufiregular"
             android:hint="Re-enter Password"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:textColor="@color/black"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRenterPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
