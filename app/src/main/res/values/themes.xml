@@ -8,6 +8,6 @@
     <style name="Theme.GardenWatch" parent="Base.Theme.GardenWatch" />
 
     <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/F8F8F8</item>
+        <item name="android:statusBarColor">#F8F8F8</item>
     </style>
 </resources>

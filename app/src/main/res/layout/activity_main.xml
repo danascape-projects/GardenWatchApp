@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="F8F8F8"
-    tools:context=".MainActivity">
+    android:background="@drawable/su"
+    tools:context=".MainActivity"
+    android:layout_gravity="bottom"
+    tools:visibility="visible">
 
     <TextView
         android:id="@+id/textView"
@@ -16,18 +18,11 @@
         android:fontFamily="@font/reemkufibold"
         android:text="Sign Up"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:translationZ="90dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="436dp"
-        android:layout_height="742dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/su" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
