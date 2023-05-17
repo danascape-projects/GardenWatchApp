@@ -7,14 +7,6 @@
     android:background="F8F8F8"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="445dp"
-        android:layout_height="743dp"
-        app:srcCompat="@drawable/g1"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="-19dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -28,4 +20,14 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="436dp"
+        android:layout_height="742dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/su" />
 </androidx.constraintlayout.widget.ConstraintLayout>
