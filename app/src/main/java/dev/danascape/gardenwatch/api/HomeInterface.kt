@@ -6,5 +6,5 @@ import retrofit2.http.GET
 
 interface HomeInterface {
     @GET("plant.json")
-    fun getBuildInfo(): Call<PlantModel>
+    fun getPlantInfo(): Call<PlantModel>
 }
